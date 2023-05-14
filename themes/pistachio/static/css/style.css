@@ -185,6 +185,7 @@ footer > .epic-container > .madewith > p > a {
     color: #fff;
     text-decoration: none;
     width: 27.5rem;
+    height: 10rem;
     border-radius: 4px;
 }
 
@@ -204,7 +205,19 @@ footer > .epic-container > .madewith > p > a {
 }
 
 .whatssocool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 1rem;
+}
+
+.whatssocool > h2 {
+    text-align: left;
+}
+
+.whatssocool > p {
+    text-align: left;
 }
 
 .special-containers {
@@ -212,8 +225,13 @@ footer > .epic-container > .madewith > p > a {
     margin: 0 24vw;
 }
 
+.special-containers > h2 {
+    text-align: left;
+}
+
 .special-containers > p {
     font-size: 1.1rem;
+    text-align: left;
     margin: 0;
 }
 
