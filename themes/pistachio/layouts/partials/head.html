@@ -1,0 +1,52 @@
+<head>
+    {{- $style := resources.Get "css/style.css" }}
+    {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+    {{ else }}
+    <title>{{$.Site.Title}} | {{ .Title }}</title>
+    {{ end }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{.Site.BaseURL}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"> 
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    {{ if .Description}}
+    <meta name="description" content="{{ .Description }}" />
+    {{ else }}
+    <meta name="description" content="{{ $.Site.Params.About.Subtext }}" />
+    {{ end }}
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/eb461dec87.js" crossorigin="anonymous"></script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{ if .Params.Cover }}
+    <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
+    {{ end }}
+    {{ if .Description}}
+    <meta property="og:description" content="{{ .Description }}" />
+    {{ end }}
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:locale" content="en_US" />
+    {{ if .Date }}
+    <meta property="og:updated_time" content="{{ .Date.Format "2006-01-02T15:04:05-0700" }}" />
+    <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-0700" }}" />
+    <meta property="og:article:modified_time" content="{{ .Date.Format "2006-01-02T15:04:05-0700" }}" />
+    {{ end }}
+    {{ if .Params.Author }}
+    <meta property="og:article:author" content="{{ .Params.Author }}" />
+    {{ end }}
+    {{ if .Params.Category }}
+    <meta property="og:article:section" content="{{ .Params.Category }}" />
+    {{ end }}
+    {{ if .Params.Tags }}
+    <meta property="og:article:tag" content="{{ .Params.Tags }}" />
+    {{ end }}
+</head>

@@ -1,0 +1,10 @@
+<footer>
+    <div class="epic-container">
+        <div class="copyright">
+            <p>© {{ now.Format "2006"}} {{ .Site.Title }}.</p>
+        </div>
+        <div class="madewith">
+            <p>{{.Site.Params.madewith | safeHTML }}</p>
+        </div>
+    </div>
+</footer>

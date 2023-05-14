@@ -1,0 +1,240 @@
+body {
+    background-color: #151515;
+    color: #fff;
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #468b74;
+    padding: 1rem 1rem 1rem 0.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #f1f1f1;
+    text-underline-offset: 0.3rem;
+}
+
+a:hover {
+    text-decoration-color: mediumspringgreen;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.brand-link, .language-link {
+    color: #f1f1f1;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-underline-offset: 0.3rem;
+}
+
+.homepage-header {
+    background-color: #468b74;
+    padding: 1rem 1rem 1rem 0.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.hi-im {
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.alex {
+    color: #bdc5eb;
+    font-size: 3vh;
+    text-underline-offset: 1rem;
+}
+
+.short-info {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.litt-mer {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    color: #60cdff;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.tech-stuff {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.homepage-content {
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    position: sticky;
+    top: 100vh;
+    padding: 1rem 1rem 1rem 0.5rem;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.epic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+footer > .epic-container > .madewith > p > a {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+
+    text-underline-offset: 0.3rem;
+}
+
+.blog-div {
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.blog-stuff {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    gap: 1rem;
+    flex-wrap: wrap;    
+    padding: 1rem 1rem 1rem 0.5rem;
+}
+
+.blog-stuff > h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.blog-post {
+    padding: 1rem 1rem 1rem;
+    background-color: #191919;
+    color: #fff;
+    text-decoration: none;
+    max-width: fit-content;
+    border-radius: 4px;
+}
+
+.blog-post:hover {
+    background-color: #303030;
+    transition: all 0.25s;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-post {
+        width: 100%;
+        max-width: 88vw;
+    }
+}
+
+.feature-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0 24vw;
+}
+
+.feature {
+    text-align: left;
+    padding: 1rem;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    width: 27.5rem;
+    border-radius: 4px;
+}
+
+.feature-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.feature > p:not(.feature-header) {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.whatssocool {
+    margin-bottom: 1rem;
+}
+
+.special-containers {
+    padding: 1rem 1rem 1rem 0.5rem;
+    margin: 0 24vw;
+}
+
+.special-containers > p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.homepage-header-buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.homepage-header-buttons > a {
+    padding: 0.5rem 1rem;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.homepage-header-buttons > a:hover {
+    background-color: #303030;
+    transition: all 0.25s;
+}
