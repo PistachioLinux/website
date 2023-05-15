@@ -36,7 +36,7 @@
         <p>Pistachio Linux comes with a wrapper script for Distrobox called <code>pistachio-manager</code>, so that you can easily manage Distrobox containers. You can also deal with containers manually using podman or the distrobox script, but for creating containers, using <code>pistachio-manager</code> is recommended.</p>
     </div>
     <div class="cta">
-        <h2>Ready to get the freshest WSL experience possible?</h2>
+        <h2>Ready for the best WSL experience ever?</h2>
         <a href="#">Download from the Microsoft Store</a>
     </div>
 </div>
