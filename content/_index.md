@@ -37,6 +37,6 @@
     </div>
     <div class="cta">
         <h2>Ready for the best WSL experience ever?</h2>
-        <a href="#">Download from the Microsoft Store</a>
+        <a href="https://www.microsoft.com/store/productId/9P41G2MV9CQ3">Download from the Microsoft Store</a>
     </div>
 </div>
