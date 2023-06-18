@@ -11,7 +11,7 @@ theme = 'pistachio'
         PistachioVersionTag = 'beta'
         blog = 'The Pistachio Blog'
         WhatIsPistachio = 'Pistachio Linux is an all new Linux distribution built for WSL. With Pistachio, you can run any Linux distro, without ever needing to install them.'
-        madewith = 'Made with ❤️ and uhh 🍦 by <a href="https://pistasjis.net">Pistasj</a>' 
+        madewith = 'Pistachio Linux is a project by <a href="https://pistasjis.net">Pistasj</a>.' 
         dateformat = 'Jan 2, 2006'
         notfoundmessage = "Oops, looks like you're lost."
         notfoundlink = 'Go back home'

@@ -18,6 +18,17 @@ nav {
     align-items: center;
 }
 
+code {
+    background-color: #212121;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-family: 'Cascadia Mono', 'JetBrains Mono', monospace;
+}
+
 a {
     color: #f1f1f1;
     text-underline-offset: 0.3rem;
@@ -49,16 +60,21 @@ a:hover {
 }
 
 .pistachio {
-    font-size: 5vh;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
     margin: 0;
 }
 
 .highlight {
-    color: aquamarine;
-    font-size: 3vh;
-    text-underline-offset: 1rem;
+    background-color: #212121;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 999px;
+    font-size: 2rem;
+    text-underline-offset: 0.35rem;
 }
 
 .short-info {

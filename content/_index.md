@@ -11,14 +11,14 @@
             </div>
             <div class="feature">
                 <p class="feature-header">Optimized for WSL</p>
-                <p>Pistachio is developed on WSL and is only available for WSL. Put two and two together.</p>
+                <p>Pistachio is developed on WSL and is only available for WSL. Every WSL feature like WSLg work like you'd expect.</p>
             </div>
             <div class="feature">
                 <p class="feature-header">Run any distro!</p>
                 <p>Pistachio uses containerization technology which allows you to run any Linux distro. You can run Arch, Debian, Fedora and more from Pistachio. Having multiple distros installed in WSL is so yesterday!</p>
             </div>
             <div class="feature">
-                <p class="feature-header">Always free (as in freedom)</p>
+                <p class="feature-header">Always free and open source</p>
                 <p>Pistachio uses open-source technology, so why should it not be open source? All components of Pistachio Linux including <a href="https://github.com/PistachioLinux/website" target="_blank">this site</a> are open source.</p>
             </div>
         </div>
@@ -35,8 +35,12 @@
         <h2>Wrapping up</h2>
         <p>Pistachio Linux comes with a wrapper script for Distrobox called <code>pistachio-manager</code>, so that you can easily manage Distrobox containers. You can also deal with containers manually using podman or the distrobox script, but for creating containers, using <code>pistachio-manager</code> is recommended.</p>
     </div>
+    <div class="special-containers">
+        <h2>Get stuff done, faster</h2>
+        <p>Pistachio Linux comes with <code>pistachio-setup</code>, which allows you to easily set up things like .NET, PowerShell and more. Can't find what you need? You can go on our GitHub and make a suggestion.</p>
+    </div>
     <div class="cta">
-        <h2>Ready for the best WSL experience ever?</h2>
+        <h2>Ready for (what might be) the best WSL experience ever?</h2>
         <a href="https://www.microsoft.com/store/productId/9P41G2MV9CQ3">Download from the Microsoft Store</a>
     </div>
 </div>
